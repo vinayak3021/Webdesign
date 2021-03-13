@@ -1,0 +1,646 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Merienda', cursive;
+	
+}
+
+a:hover{
+	background-color:#EC2246;
+}
+
+.menu a:active{
+	color:yellow;
+}
+
+
+/*Index or Home page CSS start*/
+
+.indbg{
+	background-color:#E9E7DA;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+
+}	
+	
+.btop{
+	background-color:#373F27;
+	height:40px;
+	text-align:right;
+	padding-top:10px;
+	font-size:15px;
+	font-weight:bold;
+	color:weight;
+	
+}
+
+.btop a,span{
+	color:white;
+	
+}
+.cname{
+	
+	background-color:#CDA34F;
+	color:#000F31 ;
+	height:100px;
+	text-align:center;
+	padding-top:5px;
+	font-size:60px;
+	font-weight:bold;
+	font-family: 'Merienda', cursive;
+}
+
+.menu{
+	height:40px;
+	text-align:center;
+	padding-top:10px;
+	background-color:white;
+	
+	margin:5px;
+	background-color:#CDA34F;
+}
+
+.menu a{
+	color:#000F31;
+		font-size:20px;
+		font-weight:bold;
+	text-decoration:none;
+	font-family: 'Merienda', cursive;
+	
+}
+
+.amenity{
+
+	color:#EB155C;
+	text-align:center;
+	font-size:35px;
+	height:40px;
+	font-family: 'Lobster', cursive;
+}
+	
+.animbox{
+	
+	position:relative;
+	animation-name:myanim;
+	animation-duration:5s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	
+}
+
+
+@keyframes myanim{
+	
+	from{left:0%;}
+	to{left:57%;}
+}
+@media screen and (max-width: 300px){
+	@keyframes myanim{
+	
+	from{left:0%;}
+	to{left:57%;}
+}
+
+}
+
+.indbanner{
+	margin-top:10px;
+	color:#EB155C;
+	text-align:center;
+	font-size:55px;
+	height:40px;
+	font-family: 'Merienda', cursive;
+	
+}
+
+.service{
+	border-style:solid;
+	border-color:#7F8C8D;
+	border-width:5px;
+	border-radius:5px;
+	height:380px;
+	background-color:#DCC7AA;
+	margin:5px;
+}
+
+.service h4{
+	font-size:25px;
+	font-family: 'Merienda', cursive;
+	color:#4A235A;
+	text-align:center;
+	margin-top:10px;
+}
+
+.service p{
+	text-align:justify;
+	margin-top:10px;
+	margin:5px;
+}	
+
+.indfooter{
+	background-color:#373F27;
+	text-align:center;
+	margin-top:10px;
+	padding-top:10px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+}
+.indfooter a{
+	color:white;
+}
+	
+/*Index or Home page CSS End*/	
+	
+/*Registration form CSS start*/
+
+.regtop{
+	margin:5%;
+	background-color:#F7D288;
+	
+}
+
+.reg{
+	 width: 100%;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  display: inline-block;
+  border: 3px solid #ccc;
+}
+
+
+.regbtn{
+	color:#F8FCF5;
+	background-color:#68BD25;
+	width: 60%;
+	padding: 5px 0px;
+	margin: 10px 10px;
+	display: inline-block;
+	border: 3px solid #ccc;
+	font-size:18px;
+	cursor:pointer;
+}
+
+.regbg{
+	
+	background-color:#E9E7DA;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+
+.regbox{
+	margin:5% 14%;
+	text-align:center;
+	
+	
+}
+
+.regbox h3{
+	color:#EB155C;
+	font-size:55px;
+	height:40px;
+	font-family: 'Merienda', cursive;
+	text-align:center;
+}
+
+
+.regfooter{
+	background-color:#373F27;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	height:60px;
+	padding:10px;
+}
+
+.regfooter a{
+	color:white;
+}
+
+/*Registration form CSS End*/
+
+/* LOGIN Page CSS Start*/
+
+.lgnbg{
+	background-color:#E9E7DA;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+.container form {
+  border: 3px solid #f1f1f1;
+}
+
+.container table{
+	width:100%;
+	text-align:center;
+}
+ .lgnhead{
+	 color:#EB155C;
+	text-align:center;
+	font-size:25px;
+	height:20px; 
+ }
+
+ .inlog{
+  width: 50%;
+  padding: 15px 15px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 3px solid #ccc
+}
+
+.container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 15px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-size:15px;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+
+
+.lgncontainer button {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: auto;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+
+.container {
+	
+	margin:5% 20%;
+  padding: 20px;
+}
+
+.lgncontainer{
+	background-color:#f1f1f1;
+	
+}
+
+
+span.psw {
+  float:center;
+  padding-top: 20px;
+  margin:10px;
+  font-weight:bold;
+  color:#000F31;
+}
+
+.lgnfooter{
+	background-color:#373F27;
+	text-align:center;
+	margin-top:10px;
+	padding-top:10px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+}
+.lgnfooter a{
+	color:white;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 15%;
+  }
+}
+
+/* LOGIN Page CSS END*/
+	
+	
+/*MEMBERSHIP PAGE CSS START*/	
+	
+.mecontainer{
+		background-color:#E9E7DA;
+		background-position:center;
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+	
+}	
+
+.omebox{
+	margin:5% 15%;
+	text-align:center;
+	
+	
+}
+
+.omebox h3{
+	color:#EB155C;
+	text-align:center;
+	font-size:35px;
+	height:40px;
+	font-family: 'Merienda', cursive;
+	
+}	
+	
+.mebox{
+	background-color:#DCC7AA;
+	color:#000F31;
+	font-size:16px;
+	margin-top:5px;
+	height:610px;
+	font-weight:bold;
+	
+}
+.mebox h4{
+	font-size:25px;
+	background-color:#A93226 ;
+	padding:5px;
+	border-style:solid;
+	border-color:#7F8C8D;
+	border-width:3px;
+	border-radius:3px;
+	
+}	
+
+.mebox p{
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+	border-radius:5px;
+	background-color:#F7DC6F;
+	padding:10px;
+	
+
+	
+}
+.mebox li{
+	text-align:left;
+	
+}
+
+.mebox input{
+	background-color:green;
+	padding:5px;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.mecc{
+	background-color:#DCC7AA;
+	color:#000F31;
+	font-size:16px;
+	margin-top:5px;
+	height:500px;
+	text-align:center;
+	margin:5%;
+	font-weight:bold;
+}
+.mecc h4{
+	font-size:25px;
+	background-color:#A93226 ;
+	padding:5px;
+	border-style:solid;
+	border-color:#7F8C8D;
+	border-width:3px;
+	border-radius:3px;
+	
+}	
+
+.mecc p{
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+	border-radius:5px;
+	background-color:#F7DC6F;
+	padding:10px;
+	font-weight:bold;
+
+	
+}
+.mecc li{
+	text-align:left;
+	
+}
+
+.mecc input{
+	background-color:green;
+	padding:5px;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.mefooter{
+	background-color:#373F27;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	height:60px;
+	padding:5px;
+}
+
+.mefooter a{
+	color:white;
+}
+
+/* MEMBERSHIP page CSS End */
+
+
+/*CONTACT US CSS START*/
+
+.contbg{
+		background-color:#E9E7DA;
+		background-position:center;
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+	
+}
+
+.contbg h3{
+	color:#EB155C;
+	text-align:center;
+	font-size:35px;
+	height:40px;
+	font-family: 'Merienda', cursive;
+	
+}
+
+	
+.contbg h4{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	
+}
+
+.contbg form{
+
+	width:100%;
+	text-align:center;
+  padding: 15px 15px;
+  display: inline-block;
+  font-size:15px;
+	 border: 3px solid #ccc;
+	 background-color:#DCC7AA;
+}
+
+.contg{
+	
+	width:100%;
+	 padding: 15px 15px;
+  margin: 10px 10px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  font-size:15px;
+	
+}
+
+.contbtn{
+	width:50%;
+	color:#F8FCF5;
+	background-color:#68BD25;
+  padding: 10px 5px;
+  margin: 10px 20px;
+  display: inline-block;
+  border: 3px solid #ccc;
+  font-size:13px;
+  cursor:pointer;
+	
+}
+.contad{
+	margin:5px;
+	
+}
+
+.contfooter{
+	background-color:#373F27;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	height:60px;
+	padding:5px;
+	margin:0px 10px;
+}
+
+.contfooter a{
+	color:white;
+}
+
+/* CONTACT US CSS END*/
+
+
+/*ABOUT US PAGE CSS START*/
+
+.abtbg{
+
+	background-color:#E9E7DA;
+	margin:0px 10px;
+}
+
+.abtbox5{
+	text-align:justify;
+}
+.abtbox5 h4{
+	text-align:center;
+	font-size:25px;
+	font-family:'Merienda', cursive;
+}
+
+.abtbox5 p{
+	text-align:justify;
+	font-size:15px;
+	font-family:'Merienda', cursive;
+	font-weight:bold;
+	margin:10px;
+}
+
+.abttop{
+	margin:5% 15%;
+	
+}
+
+.abttop div{
+	
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-color:red;
+	border-width:5px;
+	border-radius:5px;
+	background-color:#DCC7AA;
+	padding:10px;
+	font-weight:bold;
+	height:320px;
+	overflow:auto;
+	margin:10px;
+	
+}
+
+.abttop h2{
+	color:#EB155C;
+	text-align:center;
+	font-size:35px;
+	font-family:'Merienda', cursive;
+}
+
+.abttop h3{
+	text-align:center;
+	font-size:35px;
+	font-family:'Merienda', cursive;
+	
+}
+
+.abttop h4{
+	text-align:center;
+	font-size:25px;
+	font-family:'Merienda', cursive;
+	
+}
+
+.abttop p{
+	text-align:justify;
+	font-size:15px;
+	font-family:'Merienda', cursive;
+	
+}
+.abtfooter{
+	background-color:#373F27;
+	text-align:center;
+	padding:5px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.abtfooter a{
+	color:white;
+}
+
+/*ABOUT US PAGE CSS END*/
